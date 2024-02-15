@@ -8,6 +8,9 @@ namespace APIsAndJSON
         {
             RonVSKanyeAPI convo = new RonVSKanyeAPI();
             await convo.GetConvo();
+
+            OpenWeatherMapAPI sa = new OpenWeatherMapAPI();
+            await sa.GetWeatherSA();
         }
     }
 }
